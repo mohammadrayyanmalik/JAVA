@@ -1,11 +1,25 @@
 class datatype
 {
 	public static void main (String args[])
-	{
-	
+	{	
+		// out put fotrmatting
+		//  "value of Rayyan is"+ Rayyan
 		byte  Rayyan=6;
-		System.out.println(Rayyan);
-		
+	System.out.println("Value of byte is " +Rayyan);
+	System.out.println(Rayyan+" is stored in a variable");
+	System.out.println("*************"+ Rayyan+"*********************");
+	
+	short b=10000;
+	System.out.println("b="+b);
+	
+	
+	int c=3283497;
+	System.out.println("c="+c);
+	
+	
+	float d=12.93f;
+	System.out.println("value of d is "+d );
+	
 	}
 	
 	
