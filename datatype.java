@@ -1,3 +1,6 @@
+// this are premitive datatype
+// premitive datatype means primary datatype this means alraedy exist but non premite does not exist already its created by premitive data type
+
 class datatype
 {
 	public static void main (String args[])
@@ -20,11 +23,27 @@ class datatype
 	float d=12.93f;
 	System.out.println("value of d is "+d );
 	
+	// long datatype give error because default value is int so we should mentioned in last of no is L;
+	long e=8479577463747l;
+	System.out.println(e);
+	
+	double f=325.32737589764;
+	System.out.println(f);
+	
+	char g='#';
+	System.out.println(g);
+	
+	boolean h=true;//false
+	System.out.println(h);
+	
+	boolean =false;
+	System.out.println(i);
+	
 	}
 	
 	
 }
-
+// becuse of all this java is not 100% object oriented promming language so it hold the m
 
 
 

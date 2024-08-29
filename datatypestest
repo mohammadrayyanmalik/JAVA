@@ -1,0 +1,24 @@
+
+// MOhammad Rayyan Malik
+/*
+class datatypes
+{
+	public static void main(String[]args)
+	{
+		byte s=15;
+		System.out.println("this is the value of s="+s);
+		
+	}
+	
+	
+}*/
+/*
+byte 			1byte 
+short 			2byte 
+int 			4byte 
+long 			8byte
+float 			4byte
+double			8byte
+boolean			1bit
+char 			2byte
+*/
