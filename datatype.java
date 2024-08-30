@@ -43,7 +43,7 @@ class datatype
 	
 	
 }
-// becuse of all this java is not 100% object oriented promming language so it hold the m
+// becuse of all this,java is not 100% object oriented promming language so it hold the m
 
 
 
