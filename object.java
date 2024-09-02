@@ -9,6 +9,8 @@ class object
 		Scanner s=new Scanner(System.in);
 		System.out.println("Enter two numbers");
 		
+		
+		//its a function to used the input(s.nextint bus input leta hai but kahin per store nahi karta hai)
 		int n1=s.nextInt();
 		int n2=s.nextInt();
 		
