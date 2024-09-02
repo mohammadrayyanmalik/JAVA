@@ -38,7 +38,9 @@ class bitwiseoperator // its deal with binary no.
 		// 0000000000000110 
 		// 1111111111111001
 		
-			System.out.println(~6);
+			System.out.println(~6);// 0000000000000110 
+								   // 1111111111111001
+		
 		
 	}
 }
