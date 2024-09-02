@@ -6,7 +6,7 @@ class stringvariable
 	{
 	// integer litteral
 	// int a=12; its called integer litteral;
-	// String namee="hello"; its string litteral
+	// String name="hello"; its string litteral
 	
 	String name="hello";
 	System.out.println("my name is "+name);
@@ -16,7 +16,7 @@ class stringvariable
 		
 		Scanner s=new Scanner(System.in);
 		
-		int a=s.nextInt();
+		int a=s.nextInt()	;
 		System.out.println("value is given by user is"+ a);
 		
 	
