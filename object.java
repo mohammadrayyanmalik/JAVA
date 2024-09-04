@@ -1,4 +1,5 @@
-
+// import karna padta hai taki scanner class ko find out karske 
+// java has a many class so i should take the import to find out the class which on i work
 import java.util.Scanner;
 class object 
 {

@@ -1,6 +1,6 @@
-// import karna padta hai taki scanner ko pata karsake
+
 import java.util.Scanner;
-class p9{
+class object2{
 	public static void main(String[]args)
 	{
 	Scanner b=new Scanner(System.in);

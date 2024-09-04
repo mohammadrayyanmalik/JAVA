@@ -1,7 +1,7 @@
 // 03-09-2024////////////////////////////////////////////////////////////////////////////
 
 // conditional statement 
- // dicicion control statement also
+ // dicicion control statement also called
  // syntex of if 
  // if (expresion which give true or false){}
  // example of if ,

@@ -17,5 +17,14 @@ class p11
 		}
 		
 		System.out.println("subscribed:"+subscribed);
+		
+		if (subscribed)
+		{
+			System.out.println("You are Subscribed");
+		}
+		else
+		{
+			System.out.println("You are not subscribed");
+		}
 	}
 }

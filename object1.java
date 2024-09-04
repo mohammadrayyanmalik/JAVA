@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class p8 {
+class object1 {
 	public static void main(String[]args)
 	{
 		
