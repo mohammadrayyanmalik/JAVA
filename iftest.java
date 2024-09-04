@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-class p10
+class iftest
 {
 	public static void main(String[]args)
 	{

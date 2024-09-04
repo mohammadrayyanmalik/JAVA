@@ -3,9 +3,9 @@ class nestedifelse
 {
 	public static void main(String[]args)
 	{
-		// if ke underr agar koii bhi ifelse lagai to usko nested ifelse kahen ge
+		// if ke underr agar ek aur ifelse lagai to usko nested ifelse kahen ge
 		
-		int n=13;
+		int n=13	;
 		
 		if(n%3==0)
 		{
