@@ -10,13 +10,13 @@ import java.util.Scanner;
 // jahan se hum coun start karen ge use initializing bolege
 // jahan end karna hai wahan hum max no. likhen ge if i want 100 times print then i write 100 in  condition
 
-class loops1 
+class whileloops1 
 {
 	public static void main(String[]args)
 	{
 	
-	int i=1;
-	while (i<=5)
+	int i=11;
+	while (i<=50)
 	{
 		System.out.println("Hello"+i);
 		i++;
