@@ -8,7 +8,7 @@
 	 
 	 int n=sc.nextInt();
 	 
-	 if(n==1)
+	 if(n==1)	
 	 {
 	 System.out.println("Marathi language is selected");
 	 }

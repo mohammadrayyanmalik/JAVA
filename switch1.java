@@ -25,7 +25,7 @@ class switch1
 				System.out.println("No matching case");
 		}	*/
 		System.out.println("1:Monday  2:Tuesday  3: Wednesday  4:Thursday  5: friday 6: Satarday  7:Sunday");
-			int n=sc.nextInt();
+		int n=sc.nextInt();
 		
 		
 		switch(n)
