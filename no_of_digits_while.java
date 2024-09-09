@@ -1,5 +1,5 @@
 import java.util.*;
-class no_of_digits
+class no_of_digits_while
 {
 	public static void main(String[]args)
 	{
