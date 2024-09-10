@@ -7,7 +7,7 @@ class positive_no_while
 		int n=0;
 		int count=0;
 		
-		while(n>=0 && n<=10)
+		while(n>=0)
 		{
 			n=sc.nextInt();
 			count++;
