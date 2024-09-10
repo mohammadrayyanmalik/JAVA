@@ -24,7 +24,7 @@ class forloops
 		}*/
 		
 		
-		// to print table of 5
+		// to print table of n
 		/*int  n=sc.nextInt();
 		for (int i=1; i<=10; i++)
 		{
@@ -35,7 +35,7 @@ class forloops
 		int n=sc.nextInt();
 		int sum=0;
 		for(int i=1; i<=n; i++)
-		{
+		{//assignment
 			sum=sum+i;	
 		}
 		System.out.println(sum);
