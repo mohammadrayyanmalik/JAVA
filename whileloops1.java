@@ -20,7 +20,7 @@ class whileloops1
 	{
 		System.out.println("Hello"+i);
 		i++;
-	}
+	}                                             
 	
 	}
 }
