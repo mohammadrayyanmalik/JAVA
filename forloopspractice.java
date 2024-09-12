@@ -19,11 +19,10 @@ class forloopspractice
 			}
 		
 		}
-		System.out.println();
-		System.out.println();
+		System.out.println("===================");
 		
 		System.out.println(digitcount);
-		System.out.println();
+		System.out.println("========================");
 		
 		int count=0;
 		for (int i=1;  i<=100;  i++)
