@@ -55,6 +55,7 @@ class question
 			
 			if (i%7==0)
 			{
+				
 				count++;
 			}
 		}
