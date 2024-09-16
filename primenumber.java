@@ -19,7 +19,7 @@ class primenumber
 				
 			
 		}
-				System.out.println();
+				System.out.println(" ");
 				System.out.println(count+" ");
 				
 		if (count==2)
