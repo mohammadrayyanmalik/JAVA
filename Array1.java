@@ -12,21 +12,35 @@
 		// array banane ke liye "new" keyword ka use karenge
 		//Syntex of Array
 		//int <variable name>[]= new datatype [size];
-
+import java.util.*;
 class Array1
 {						
 	public static void main(String[]args)
 	{
+		Scanner sc=new Scanner(System.in);
 		int number[]=new int[3];
 		
-		number[0]=11;
+		/*number[0]=11;
 		number[1]=12;
 		number[2]=13;
 		
 		
 		System.out.println(number[0]);
 		System.out.println(number[1]);
-		System.out.println(number[2]);
+		System.out.println(number[2]);*/
+		
+		int numbers[]=new int[5];
+		
+		for (int i=0; i<5; i++)
+		{
+			numbers[i]=sc.nextInt();
+		
+		}
+		
+		for (int i=0; i<5; i++)
+		{
+			System.out.println(numbers[i]);
+		}
 		
 		System.out.println("==========================================");
 		
@@ -38,7 +52,10 @@ class Array1
 		names[2]="Jarjees";
 		names[3]="Samir";
 		
+		
 		System.out.println(names[1]);
+		
+		
 		
 		
 	}
