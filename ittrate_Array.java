@@ -1,4 +1,6 @@
-class Array2
+// vowel ko count karna hai but repeated ko only one time hi print karna hai
+
+class ittrate_Array
 {
 	public static void main(String[]args)
 	{

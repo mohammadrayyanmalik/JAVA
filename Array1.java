@@ -54,7 +54,18 @@ class Array1
 		
 		
 		System.out.println(names[1]);
-		
+		System.out.println("=====================================");
+	
+	// length give lenth of array
+	//Syntex array_name.length
+	
+	
+	String weekdays[]={"mon","tue","wed","thu","fri","sat","sun"};
+	
+	int primeNumber[]={11,23,13,3,5};
+	
+	System.out.println("weekdays:"=weekdays.length);
+	System.out.println("weekdays:"=primeNumber.length);
 		
 		
 		
