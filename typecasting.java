@@ -38,7 +38,7 @@ class typecasting
 	
 	for (int i=65; i<=90; i++)
 		{
-			if (i==89)
+				if (i==89)
 			{
 			System.out.println((char)i);
 			}
