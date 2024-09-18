@@ -1,6 +1,6 @@
 /* hello 10 print 
 hello 5 times print
-hello user input se karna hai
+hello 5 user input se karna hai
 
 10 inputs 
 count of (multiple of 7)
