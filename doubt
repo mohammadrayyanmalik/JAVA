@@ -1,0 +1,4 @@
+for (String n[]:courses)
+			{
+				System.out.println(n.length);
+			} 
