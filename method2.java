@@ -43,6 +43,7 @@ class method2
 		System.out.println("substraction  is "+ sub);
 	
 		Calculator c2=new Calculator();
+					// arguments
 		c2.setValues(122,2);
 		System.out.println(c2.a+" "+c2.b);
 		
