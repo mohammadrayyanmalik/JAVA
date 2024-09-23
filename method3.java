@@ -15,7 +15,7 @@ class Employee
 }
 
 
-class p31
+class method3
 {
 	public static void main(String[]args)
 	{
