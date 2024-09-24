@@ -12,6 +12,13 @@ public class Category {
 	}
 	
 	
+	Category(int categoryId,String categoryName)
+	{
+		this.categoryId=categoryId;
+		this.categoryName=categoryName;
+	}
+	
 }
+
 
 
