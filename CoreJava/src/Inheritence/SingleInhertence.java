@@ -1,16 +1,39 @@
 package Inheritence;
-	class a
+	class A
 	{
 		int add(int a, int b)
 		{
 			return a+b;
 		}
+		
+		A()
+		{
+			System.out.println("constructor A ");
+		}
+		
+		A(String value)
+		{
+			System.out.println("parametarized constructor A:");
+		}
+		
+		
 	}
-	class b extends a
+	class B extends A
 	{
 		int sub(int a, int b)
 		{
 			return a-b;
+		}
+		
+		B()
+		{
+			System.out.println("constructor B ");
+		}
+		
+		B(String value)
+		{
+			super(value);
+			System.out.println("Parametarized constructor B:");
 		}
 	}
 
@@ -19,11 +42,17 @@ package Inheritence;
 public class SingleInhertence {
 	public static void main(String[] args) {
 		
-		b obj=new b();
-		int subs=obj.sub(10,19);
-		System.out.println(subs);
+		B obj=new B("Rayyan");
 		
-		System.out.println(obj.add(100, 11));
+		
+		System.out.println("==================================================");
+		int subs=obj.sub(10,19);
+		System.out.println("subs is :"+subs);
+		
+		System.out.println("Add is :"+obj.add(100, 11));
+		
+	
+		
 	}
 }
 
@@ -33,3 +62,6 @@ public class SingleInhertence {
 //1) single inheritence means one parents one child
 //	clas_b extendes <class_a>
 // void type ke object  ko hum sysout me nahi likh sakte 
+// agar hum child ka object banain ge to parent ka bhi constructor call hoga
+// in case of parametarized and non parametarized constructor when we create child object then it called parent object also
+// child ke constroctor ke through kuch parent ke constructor ko value deni ho to hum "Super " keyword ka use karenge
