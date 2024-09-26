@@ -6,3 +6,5 @@ public class Student1 {
 		System.out.println(sp1.sportName);
 	}
 }
+
+

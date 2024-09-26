@@ -14,6 +14,8 @@ class ittrate_Array
 	
 	
 	// Enhance for loops
+	// enhance for loops does not required conditional,and increament statement and it is used a=in array only
+	
 	
 	for(String day:weekdays)
 	{
