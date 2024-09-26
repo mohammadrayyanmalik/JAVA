@@ -19,3 +19,11 @@ public class multiLevelInheritence1 {
 		
 	}
 }
+
+
+
+// Hierarchical Inheritence
+// one parent multiple children
+// jab ek cheez ke multiple type honge tab hum is ko use karege
+// jab ek cheez ko multiple class me distribute karna hoga to ise use karege
+// e.g. class c and b inherit with class a 
