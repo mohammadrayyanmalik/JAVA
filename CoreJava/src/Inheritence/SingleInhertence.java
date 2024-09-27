@@ -56,6 +56,14 @@ public class SingleInhertence {
 	}
 }
 
+// types of inheritence 
+//single
+//multilevel
+// heirerchichal 
+//hybrid
+// multiple 
+
+
 
 
 //inheritence is used to borrow of another class property
@@ -65,3 +73,4 @@ public class SingleInhertence {
 // agar hum child ka object banain ge to parent ka bhi constructor call hoga
 // in case of parametarized and non parametarized constructor when we create child object then it called parent object also
 // child ke constroctor ke through kuch parent ke constructor ko value deni ho to hum "Super " keyword ka use karenge
+// inheritence use in frame work because us me hume readymade clases milte hain

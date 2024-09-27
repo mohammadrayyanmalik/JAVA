@@ -14,5 +14,5 @@ public class HierarchichalInheritence {
 }
 
 
-// alag alag inhertence ko ek sath likhe ge  to use hybrid inheritence
-
+// Multiple inhertence is not allow in java throgh classes it can be done by interfaces
+// 2 class ki propert ek sath nahi mang sakte hain
