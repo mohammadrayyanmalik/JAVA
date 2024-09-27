@@ -12,3 +12,7 @@ public class HierarchichalInheritence {
 		 System.out.println(pte.name);
 	}
 }
+
+
+// alag alag inhertence ko ek sath likhe ge  to use hybrid inheritence
+
