@@ -30,3 +30,17 @@ public class Programmer extends FullTimeEmployee
 // public class ko sare package ke class use kar sakte hain with out inhert
 
 // jab hum dosre package se kisi class ko call karna hai to import karna padega
+
+
+
+
+
+// polymorphism (many form)
+
+// types of polumorphism
+// method overloading 
+// over riding 
+
+// method overloading 
+//same class me kam karna hai
+// aapke method ka name same hoga but type of parameter and number of parameter should be different honge 
