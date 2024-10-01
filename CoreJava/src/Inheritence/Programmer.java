@@ -44,3 +44,32 @@ public class Programmer extends FullTimeEmployee
 // method overloading 
 //same class me kam karna hai
 // aapke method ka name same hoga but type of parameter and number of parameter should be different honge 
+
+
+// method overridng 
+// 2 different classes 
+// same methods name
+// same no of parameter and same type of parameters
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
