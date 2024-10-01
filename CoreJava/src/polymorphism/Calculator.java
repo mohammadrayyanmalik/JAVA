@@ -65,3 +65,21 @@ public class Calculator {
 		c1.multi(12, 21.2f, 120, 21.20);
 	}
 }
+
+
+
+//polymorphism (many form)
+
+//types of polumorphism
+//method overloading 
+//over riding 
+
+//method overloading 
+//same class me kam karna hai
+//aapke method ka name same hoga but type of parameter and number of parameter should be different honge 
+
+
+//method overridng 
+//2 different classes 
+//same methods name
+//same no of parameter and same type of parameters

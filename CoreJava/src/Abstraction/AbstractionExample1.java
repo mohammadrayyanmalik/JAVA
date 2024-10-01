@@ -43,15 +43,30 @@ public class AbstractionExample1 {
 		new TV().stop();
 		new AC().stop();
 		
+		
+		Electronics e1=new Electronics() {
+			void start()
+			{
+				System.out.println("hello electronics detials");
+			}
+			void stop()
+			{
+				System.out.println("hello electronic detials");
+			}
+		};
+		
+		e1.start();
+		e1.stop();
+		
 	}
 }
 
 
 
 //abstraction
-//aap jo method banaoge uska implementation kaorge hi nahi
+// method without  implementation known as abstration
 //eg. void () without curlibraces <{}> 
-
+// hum abstract class ka object nahi bana sakte hain
 
 
 //rules 
@@ -59,3 +74,7 @@ public class AbstractionExample1 {
 // rule 2)  normal class can not have abstract method iskeliye hume class ko bhi abstact declare karna padega
 //  rule 3)   in abstract class we used normal method
 // rule 4)  abstract class ka direct object nahi ban sakte hain
+
+
+
+// class ke ander class ko anonyms class
