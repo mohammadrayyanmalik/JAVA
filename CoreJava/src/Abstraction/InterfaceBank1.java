@@ -55,3 +55,5 @@ public class InterfaceBank1 {
 
 // multiple inheritence
 // multiple parent one child
+// multiple inheritence is not allow through classes
+// multiple inheitence is allow through interface
