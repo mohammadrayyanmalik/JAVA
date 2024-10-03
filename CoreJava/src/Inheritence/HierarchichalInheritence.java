@@ -15,4 +15,4 @@ public class HierarchichalInheritence {
 
 
 // Multiple inhertence is not allow in java throgh classes it can be done by interfaces
-// 2 class ki propert ek sath nahi mang sakte hain
+// 2 class ki property ek sath nahi mang sakte hain

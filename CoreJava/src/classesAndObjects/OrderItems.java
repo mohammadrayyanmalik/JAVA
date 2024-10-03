@@ -16,8 +16,9 @@ public class OrderItems {
 	
 	double discount()
 	{
-		System.out.println(this.price);
-		return this.price*9;
+        
+
+		return this.price*.39;
 		
 	 
 	}

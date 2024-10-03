@@ -6,7 +6,7 @@ public class Product {
 	int productPrice;
 
 	// setProductDetials(101,"Laptop",50000)
-	// this keyword represent jo object call karega woh means current
+	// this keyword represent jo object call karega woh  current
 	// this ke sath hum instance variable ko likhenge
 	// return type wale method ko hi hum systoy me likh sakte hain void type ko nahi
 	void setProductDetials(int productId,String productName, int productPrice)

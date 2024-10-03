@@ -13,6 +13,7 @@ package Abstraction;
 		{
 			System.out.println("TV started");
 		}
+		
 		void stop()
 		{
 			System.out.println("TV stoped");
@@ -66,15 +67,16 @@ public class AbstractionExample1 {
 //abstraction
 // method without  implementation known as abstration
 //eg. void () without curlibraces <{}> 
+// just have blueprint ke liye hum banate hain
 // hum abstract class ka object nahi bana sakte hain
 
 
 //rules 
 // rule 1)  method me abstract declare karenge
 // rule 2)  normal class can not have abstract method iskeliye hume class ko bhi abstact declare karna padega
-//  rule 3)   in abstract class we used normal method
-// rule 4)  abstract class ka direct object nahi ban sakte hain
+//  rule 3)   in abstract class we  used normal method 
+// rule 4)  abstract class ka direct object nahi bana sakte hain
 
 
 
-// class ke ander class ko anonyms class
+// class ke ander class ko anonymous class kahte hain

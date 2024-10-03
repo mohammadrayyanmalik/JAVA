@@ -83,3 +83,4 @@ public class Calculator {
 //2 different classes 
 //same methods name
 //same no of parameter and same type of parameters
+// hum isko ABstrction ke chaptr me padhenge
