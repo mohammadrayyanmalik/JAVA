@@ -12,4 +12,10 @@ public class InterfaceInherit1 implements I1 {
 	{
 		System.out.println(n*n);
 	}
+	
+	public int number(int a)
+	{
+		return a;
+		
+	}
 }

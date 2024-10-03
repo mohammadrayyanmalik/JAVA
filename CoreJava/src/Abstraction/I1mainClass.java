@@ -6,6 +6,9 @@ public class I1mainClass {
 		II.display();
 		
 		II.square(12);
+		
+		
+		System.out.println(II.number(10));
 	}
 		
 	
