@@ -33,6 +33,9 @@ public class InterfaceExample11 {
 // lamd expresion ke age hum direct implementatio likh sakte hain
 // void type ke method ke liye sysout likhe ge
 
+
+
+// 		string parameterin () then -> then if return anything put value
 //Test t1=(n)->n%2==0;
 
 
