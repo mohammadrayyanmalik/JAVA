@@ -1,13 +1,14 @@
 package Abstraction;
-	
-	@FunctionalInterface
+//functionalInterface
+
+	 
 	interface Test 
 	{
 		boolean isEven(int n);
 	}
 
 
-public class InterfaceExample11 {
+public class LamdaExpresion {
 	public static void main(String[] args) {
 		
 		Test t1=(n)->n%2==0;
@@ -35,7 +36,7 @@ public class InterfaceExample11 {
 
 
 
-// 		string parameterin () then -> then if return anything put value
+// 		string parameter in () then -> then if return anything put value
 //Test t1=(n)->n%2==0;
 
 

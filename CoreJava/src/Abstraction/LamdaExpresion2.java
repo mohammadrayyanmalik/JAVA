@@ -1,5 +1,6 @@
 package Abstraction;
-
+// functionalInterface
+@FunctionalInterface
 	interface Test1
 	{
 		void printName(String name);
@@ -21,7 +22,7 @@ package Abstraction;
 	}
 	
 	
-public class InterfaceExample12 {
+public class LamdaExpresion2 {
 	public static void main(String[] args) {
 		
 		Test1 t2=(name)-> System.out.println("My name is :"+name);
@@ -59,3 +60,6 @@ public class InterfaceExample12 {
 		
 	}
 }
+
+
+
