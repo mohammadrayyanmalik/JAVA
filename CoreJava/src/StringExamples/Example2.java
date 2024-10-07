@@ -43,3 +43,5 @@ public class Example2 {
 
 
 // toLower case convert into lower Case all the content
+
+// toUpperCase
