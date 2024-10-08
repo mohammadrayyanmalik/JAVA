@@ -29,7 +29,7 @@ public class Example4 {
 		System.out.println("Qasim".charAt(2));
 		
 		System.out.println("========================================");
-		// indexOf find
+		// indexOf latter ko type karenge ki konsa latter kis position per pahle kis position per haiand no define ki kahan se strat karni hai
 		// indexOf retun type int
 		System.out.println("PineApple".indexOf('p',3));
 		

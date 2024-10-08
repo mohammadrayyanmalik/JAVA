@@ -1,6 +1,6 @@
 package StringExamples;
 
-public class Exampl4 {
+public class Example5 {
 	public static void main(String[] args) {
 		String s1="Mobiooole";
 		
@@ -29,3 +29,9 @@ public class Exampl4 {
 		
 	}
 }
+
+// count no of vowel in a string  laptapo
+// palindrom check 
+// h 				e			ll			o			
+// priti Amit Joel Gurjeet
+
