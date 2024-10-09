@@ -22,6 +22,8 @@ public class Student {
 	}
 	
 	
+	
+	
 	public void setName(String name)
 	{
 		this.name=name;
@@ -42,5 +44,10 @@ public class Student {
 		return this.age;
 	}
 	
+	public String toString()
+	{
+		return this.id+"";
 	}
+	
+}
 

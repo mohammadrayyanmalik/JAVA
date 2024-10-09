@@ -5,8 +5,9 @@ public class stdEncapsulaton {
 		
 		Student s1=new Student();
 		
+//		System.out.println(s1);
 		s1.setId(101);
-		s1.getId("Rayyan");
+		System.out.println();
 		
 		
 		s1.setName("Rayyan");
@@ -36,4 +37,13 @@ public class stdEncapsulaton {
 //her ek variable ka alag se setter banana pade ga
 
 //setter ka data type always void hona chahiye
+
+// pojo class 
+// private variable, getter and setter  mehtods , constructor and to string ;
+
+
+// jab hum kisi object ko print karenge to  object apne parents class ko dhontta hai agar class ka koi parent
+// nahi hai to java ke pass ek object name ka ready made class hota hai jis ke pass ek tostring name ka method 
+// hota hai jisko over ride karke hum jo chahen woh print kara sakte hain other wise tostring method ke pass 
+// jo address hai woh print hoga
 
