@@ -27,3 +27,6 @@ public class Example5 {
 
 // finally block execute every time chahe exception handle ho ya nahi
 // finally code me connect ko close karne wala code likhenge 
+
+
+// compile time exceprtion 
