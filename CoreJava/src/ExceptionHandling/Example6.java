@@ -10,7 +10,11 @@ public class Example6 {
 		new FileInputStream("Rayyn");
 		}
 		
-	
+		catch(FileNotFoundException e)
+		{
+			System.out.println("file not found");
+		}
+		
 		
 		
 		
