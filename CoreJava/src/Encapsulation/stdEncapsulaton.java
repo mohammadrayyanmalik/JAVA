@@ -43,7 +43,7 @@ public class stdEncapsulaton {
 
 
 // jab hum kisi object ko print karenge to  object apne parents class ko dhontta hai agar class ka koi parent
-// nahi hai to java ke pass ek object name ka ready made class hota hai jis ke pass ek tostring name ka method 
-// hota hai jisko over ride karke hum jo chahen woh print kara sakte hain other wise tostring method ke pass 
+// nahi hai to java ke pass ek object name ka ready made class hota hai jis ke pass ek toString name ka method 
+// hota hai jisko over ride karke hum jo chahen woh print kara sakte hain other wise toString method ke pass 
 // jo address hai woh print hoga
 
