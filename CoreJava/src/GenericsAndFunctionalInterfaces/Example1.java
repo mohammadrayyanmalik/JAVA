@@ -38,3 +38,4 @@ public class Example1 {
 // readymade functional interface
 
 // Autoboxing  (Primitive to Wrapper conversion)
+// UnBoxing (Wrapper to primitive )
