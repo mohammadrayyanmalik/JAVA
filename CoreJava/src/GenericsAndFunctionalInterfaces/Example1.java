@@ -30,7 +30,11 @@ public class Example1 {
 //int Integer
 //char Character 
 //long Long 
+// boolean Boolean
+// float Float
 
 
 // Predicate
 // readymade functional interface
+
+// Autoboxing  (Primitive to Wrapper conversion)

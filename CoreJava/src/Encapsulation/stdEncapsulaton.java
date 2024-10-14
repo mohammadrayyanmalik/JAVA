@@ -3,7 +3,8 @@ package Encapsulation;
 public class stdEncapsulaton {
 	public static void main(String[] args) {
 		
-		Student s1=new Student();
+		Student s1=new Student(101,"Samir", 18);
+		
 		
 //		System.out.println(s1);
 		s1.setId(101);
