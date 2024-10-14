@@ -8,7 +8,7 @@ public class Example4 {
 	
 		public static void main(String[] args) {
 			
-			Consumer<Integer> number=new Consumer<Integer>() {
+			Consumer<Integer> square=new Consumer<Integer>() {
 
 				@Override
 				public void accept(Integer t) {
@@ -17,11 +17,8 @@ public class Example4 {
 					System.out.println(t*t);
 					
 				}
-				
-				
-				
 			};
 			
-			number.accept(13);
+			square.accept(13);
 		}
 }

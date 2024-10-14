@@ -39,3 +39,12 @@ public class Example1 {
 
 // Autoboxing  (Primitive to Wrapper conversion)
 // UnBoxing (Wrapper to primitive )
+
+
+// questions prctice 
+// consumer ke accept method ko 4 diya to 4 ka table print 
+// accept (student obj ) diya to grade batana hai fees batani hai
+// accept (product obj )diya product ke 20 % discount dekar print ho
+
+// supplier
+// lamda, functional interface, array , anonymous ,generics , predicate , consumer
