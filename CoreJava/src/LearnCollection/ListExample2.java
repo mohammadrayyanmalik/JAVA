@@ -11,7 +11,8 @@ public class ListExample2 {
 			list.add(333);
 			
 			list.add(324);
-			
+			System.out.println(list.size());
+			System.out.println("==================================================================");
 			
 			System.out.println(list);
 			
@@ -19,6 +20,17 @@ public class ListExample2 {
 			{
 				System.out.println(i);
 			}
+			System.out.println(list.size());
 			
+			System.out.println("==================================================================");
+			System.out.println("==================================================================");
+			System.out.println("==================================================================");
+
+			
+			list.remove(list.size()-1);
+			System.out.println(list);
+			
+		
+
 		}
 }

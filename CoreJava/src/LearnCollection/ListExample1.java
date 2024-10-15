@@ -33,3 +33,4 @@ public class ListExample1 {
 // add method is a common method for every collection interface and classes
 // list is used to  stored differnet type of object in single list
 
+// array list can hold duplicate value
