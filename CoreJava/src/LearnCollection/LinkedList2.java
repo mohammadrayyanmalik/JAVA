@@ -14,8 +14,11 @@ public class LinkedList2 {
 		name.add("Abrar");
 		name.add("Samir");
 		
-		name.removeIf(na->na.startsWith("A"));
-		System.out.println(name);
+		Predicate<Stirng> names=
+		
+		
+//		name.removeIf(na->na.startsWith("A"));
+//		System.out.println(name);
 		
 		System.out.println("=================================================================");
 		
