@@ -1,6 +1,7 @@
 package LearnCollection;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.function.Predicate;
 
@@ -14,7 +15,7 @@ public class LinkedList2 {
 		name.add("Abrar");
 		name.add("Samir");
 		
-		Predicate<Stirng> names=
+//		Predicate<Stirng> names=()
 		
 		
 //		name.removeIf(na->na.startsWith("A"));
@@ -33,6 +34,8 @@ public class LinkedList2 {
 		products.removeIf((price)->price.getPrice()<20000);
 		
 		System.out.println(products);
+		
+		System.out.println("=========================================");
 		
 		
 		
