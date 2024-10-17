@@ -33,12 +33,16 @@ public class ListExample1 {
 // add method is a common method for every collection interface and classes
 // list is used to  stored differnet type of object in single list
 
-// array list can hold duplicate value
-// 
-// Array list methods 1) ADD 2)size 3)addall 4) remove 5) remove all 6)clear
+
+
+// Array list methods 1) ADD,add methods with index and elements 2)size 3)addall 4) remove 5) remove all 6)clear
+
+
 
 // array list and linked list doth are same but only insertion both are different.
 // for insertion used linked list and for search operation used Arraylist.
+
+
 
 
 // linked list
