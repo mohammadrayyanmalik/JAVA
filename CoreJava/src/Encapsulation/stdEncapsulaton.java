@@ -6,7 +6,7 @@ public class stdEncapsulaton {
 		Student s1=new Student(101,"Samir", 18);
 		
 		
-//		System.out.println(s1);
+	System.out.println(s1);
 		s1.setId(101);
 		System.out.println();
 		

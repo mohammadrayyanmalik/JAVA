@@ -30,7 +30,28 @@ public class ListExample2 {
 			list.remove(list.size()-1);
 			System.out.println(list);
 			
-		
+			System.out.println("==================================================================");
 
+			
+			ArrayList<Integer> list1=new ArrayList<Integer>();
+			list1.add(101);
+			list1.add(102);
+			list1.add(103);
+			
+			//addAll is used to  2 collection into 1 but more than 2 it can't be done
+			list.addAll(list1);
+			
+			System.out.println(list);
+			
+			System.out.println("==================================================================");
+
+			list.removeAll(list1);
+			
+			System.out.println(list);
+			System.out.println("==================================================================");
+
+			
+			list.clear();
+			System.out.println(list);
 		}
 }

@@ -37,6 +37,6 @@ public class Example1 {
 //string is a class in java 
 //string a="Hello";     			this is a string literal
 //string literal created in string constrants pool memory
-// String ki value check nahi ki jata hai balki refrences check kiya jata hai ki heap memory me hai ya string constrant pool memory
+// String ki value check nahi ki jati hai balki refrences check kiya jata hai ki heap memory me hai ya string constrant pool memory
 // String type ka agar object banai hain to uska comairision nahi kar sakte hain
 // String class ko  inherit nahi kar sake hain
