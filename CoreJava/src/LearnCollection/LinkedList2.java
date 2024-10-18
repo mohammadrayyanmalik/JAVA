@@ -29,7 +29,7 @@ public class LinkedList2 {
 		LinkedList<Product> products=new LinkedList<Product>();
 		
 		products.add(new Product(101,"Laptop",10000.30));
-		products.add(new Product(102,"iphone",20000.30));
+		products.add(new Product(102,"Iphone",20000.30));
 		products.add(new Product(103,"Mobile",30000.30));
 				
 		
@@ -42,6 +42,10 @@ public class LinkedList2 {
 		
 		Collections.sort(products);
 		System.out.println(products);
+		
+		
+		
+		
 		
 		
 		

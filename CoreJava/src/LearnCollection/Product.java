@@ -1,6 +1,8 @@
 package LearnCollection;
 
-public class Product implements Comparable<Product> {
+import java.util.Comparator;
+
+public class Product implements Comparator<Product> {
 
 	private int id;
 	private String name;
@@ -43,26 +45,36 @@ public class Product implements Comparable<Product> {
 		this.price = price;
 	}
 
-	@Override
+//	@Override
 //	public int compareTo(Product o) {
-//		// TODO Auto-generated method stub
-//		return this.id-o.id;
+////		TODO Auto-generated method stub
+////	return this.id-o.id;
+////	return o.id-this.id;
+//		return this.name.compareTo(o.name);
 //		
 //	}
-	
-	public int compareTo(Product o) {
-		if(this.price>o.price)
-			return 1;
-		else
-			return -1;
-		
-		
-		
+
+	@Override
+	public int compare(Product o1, Product o2) {
+		// TODO Auto-generated method stub
+		return 0;
 	}
+
+//	public int compareTo(Product o) {
+//		if(this.price>o.price)
+//			return 1;
+//		else
+//			return -1;
+//		
+//		
+//		
+//  }
 	
-	// 
+	
 	
 
 }
 
-// id ko id se minus karen ge
+
+// comparable is used to compare 2 objects
+//id ko id se minus karen ge
