@@ -1,6 +1,6 @@
 package LearnCollection;
 
-public class Product {
+public class Product implements Comparable<Product> {
 
 	private int id;
 	private String name;
@@ -13,27 +13,15 @@ public class Product {
 		this.price = price;
 	}
 	
-	
-	
-	
-	
 	@Override
 	public String toString() {
 		return "Product [id=" + id + ", name=" + name + ", price=" + price + "]";
 	}
 
-
-
-
-
 	public Product() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-
-
-
-
 
 	public int getId() {
 		return id;
@@ -54,8 +42,27 @@ public class Product {
 	public void setPrice(double price) {
 		this.price = price;
 	}
+
+	@Override
+//	public int compareTo(Product o) {
+//		// TODO Auto-generated method stub
+//		return this.id-o.id;
+//		
+//	}
 	
+	public int compareTo(Product o) {
+		if(this.price>o.price)
+			return 1;
+		else
+			return -1;
+		
+		
+		
+	}
+	
+	// 
 	
 
-	
 }
+
+// id ko id se minus karen ge

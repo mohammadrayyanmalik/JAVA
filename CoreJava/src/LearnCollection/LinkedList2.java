@@ -15,7 +15,10 @@ public class LinkedList2 {
 		name.add("Abrar");
 		name.add("Samir");
 		
-//		Predicate<Stirng> names=()
+	Predicate<String> names=(n)->n.startsWith("A");
+	name.removeIf(names);
+	System.out.println(name);
+	
 		
 		
 //		name.removeIf(na->na.startsWith("A"));
@@ -30,14 +33,15 @@ public class LinkedList2 {
 		products.add(new Product(103,"Mobile",30000.30));
 				
 		
-		System.out.println(products);
-		products.removeIf((price)->price.getPrice()<20000);
-		
-		System.out.println(products);
-		
+//		System.out.println(products);
+//		products.removeIf((price)->price.getPrice()<20000);
+//		
+//		System.out.println(products);
+//		
 		System.out.println("=========================================");
 		
-		
+		Collections.sort(products);
+		System.out.println(products);
 		
 		
 		

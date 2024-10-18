@@ -52,8 +52,8 @@ public class LinkedList1 {
 		
 		System.out.println("=====================================");
 
-//		Predicate<Integer> even=(num)->num%2==0;
 //		list.removeIf(even);
+//		Predicate<Integer> even=(num)->num%2==0;
 //		System.out.println(list);
 		
 		list.removeIf((num)-> num%2==1);

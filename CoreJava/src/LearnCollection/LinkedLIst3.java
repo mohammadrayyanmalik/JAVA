@@ -15,10 +15,17 @@ public class LinkedLIst3 {
 		
 		Collections.sort(number);
 		System.out.println(number);
-			
+			// comparable interface used karenge to hum koi ek variable used kar sakte hain
+		//
 		System.out.println("Smallest elements: "+number.get(0));
 		System.out.println("Largest elements: "+number.get(number.size()-1));
+		
+		System.out.println("==================================================");
+
+		
+		
 		
 	}
 	
 }
+//comparable interface used karenge to hum koi ek variable used kar sakte hain
