@@ -49,7 +49,7 @@ public class ListExample6 {
 // pop method delete ke sath sath remove item ko show karta hai
 // stack.pop always remove last added element
 // stack.empty check only it's a empty or not
-// stack.peek only provide elements that available in the box
+// stack.peek only provide  last elements that available 
 // stack ki indexing 0 se nahi hti hai
 
 
