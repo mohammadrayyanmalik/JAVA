@@ -3,6 +3,7 @@ package LearnCollection;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.LinkedList;
+import java.util.function.Predicate;
 
 public class LinkedList4 {
 	public static void main(String[] args) {
@@ -32,5 +33,16 @@ public class LinkedList4 {
 		Collections.sort(products,idComparator);
 		System.out.println(products);
 		
+		
+		System.out.println("============================================================");
+		
+		
+		Predicate<Integer> odd=(n)->n%7==1;
+		System.out.println(odd.test(6));
+		
+		
+		
 	}
+
+	
 }

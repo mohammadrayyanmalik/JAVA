@@ -39,9 +39,9 @@ public class LinkedList2 {
 //		System.out.println(products);
 //		
 		System.out.println("=========================================");
-		
-		Collections.sort(products);
-		System.out.println(products);
+
+//		Collections.sort(products);
+//		System.out.println(products);
 		
 		
 		
