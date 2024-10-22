@@ -1,10 +1,13 @@
 package LearnCollection;
 
+import java.util.Comparator;
 import java.util.TreeSet;
 
 public class SetExapmle6 {
 
 		public static void main(String[] args) {
+			
+			
 			
 			TreeSet<Product> treeSet=new TreeSet<Product>((p1,p2)->p2.getId()-p1.getId());
 			

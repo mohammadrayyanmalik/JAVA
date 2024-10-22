@@ -15,7 +15,7 @@ public class Product implements Comparator<Product> {
 		this.price = price;
 	}
 	
-	@Override
+	@Override 
 	public String toString() {
 		return "Product [id=" + id + ", name=" + name + ", price=" + price + "]";
 	}
