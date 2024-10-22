@@ -41,7 +41,7 @@ public class LinkedList2 {
 		System.out.println("=========================================");
 
 //		Collections.sort(products);
-//		System.out.println(products);
+	System.out.println(products);
 		
 		
 		

@@ -46,13 +46,12 @@ public class Product implements Comparator<Product> {
 	}
 
 //	@Override
-//	public int compareTo(Product o) {
-////		TODO Auto-generated method stub
-////	return this.id-o.id;
-////	return o.id-this.id;
+	public int compareTo(Product o) {
+//	TODO Auto-generated method stub
+//	return this.id-o.id;
+	return o.id-this.id;
 //		return this.name.compareTo(o.name);
-//		
-//	}
+}
 
 	@Override
 	public int compare(Product o1, Product o2) {

@@ -13,17 +13,17 @@ public class LinkedList4 {
 		products.add(new Product(104,"Laptop",10000.30));
 		products.add(new Product(102,"Iphone",20000.30));
 		products.add(new Product(103,"Mobile",30000.30));
-//		Comparator<Product> idComparator=(p1,p2)->p1.getId()-p2.getId();
-		Comparator<Product> idComparator=(p1,p2)->{
-		
-			if(p1.getPrice()>p2.getPrice())
-			{
-				return 1;
-			}
-			else {
-				return -1;
-			}
-		};
+		Comparator<Product> idComparator=(p1,p2)->p1.getId()-p2.getId();
+//		Comparator<Product> idComparator=(p1,p2)->{
+//		
+//			if(p1.getPrice()<p2.getPrice())
+//			{
+//				return 1;
+//			}
+//			else {
+//				return -1;
+//			}
+//		};
 		
 		
 		
