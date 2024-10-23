@@ -45,8 +45,8 @@ public class SetExample5 {
 	}
 	
 }
-// only treeSet methods otherthan linkedhashsetand hashset
-// hgher, lower, ceiling and floor, headset and tailset,sub set,
+//  methods only for treeSet  otherthan linkedhashsetand hashset
+// hiher, lower, ceiling and floor, headset and tailset,sub set,
 
 
 // higher method give bigger value that we pass in higher

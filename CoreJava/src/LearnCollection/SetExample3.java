@@ -36,3 +36,4 @@ public class SetExample3 {
 
 // linked hash set null vlaue are allowed
 // linked hash set give the sequence of insertion
+//kisi bhi list me loop ke throgh direct remove ya add method nahi kar sakte iai liye iterator class ka use karte hain
