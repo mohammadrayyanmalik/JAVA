@@ -25,10 +25,7 @@ public class QueueExample1 {
 		
 		System.out.println("==============================================");
 		
-		while(iterator.hasNext())
-		{
-			System.out.println(numbers.poll());
-		}
+		
 		
 	}
 }
@@ -41,6 +38,8 @@ public class QueueExample1 {
 //but uske baadd ka element sequence me ho zaroori nahi
 
 
+
+// d queue methods jis me start and end dono se element remove kar sakte hain
 
 
 // pop means lastNumbers and poll means first NUmbers
