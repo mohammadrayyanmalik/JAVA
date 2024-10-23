@@ -35,6 +35,7 @@ public class QueueExampl3 {
 		System.out.println(list.getFirst());
 		System.out.println(list.getLast());
 		
+		
 	}
 	
 }

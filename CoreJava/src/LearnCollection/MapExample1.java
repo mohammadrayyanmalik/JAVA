@@ -1,6 +1,7 @@
 package LearnCollection;
 
 import java.util.HashMap;
+import java.util.Set;
 
 import Inheritence.Student1;
 
@@ -28,6 +29,25 @@ public class MapExample1 {
 		System.out.println( students.remove(101));
 		System.out.println(students);
 		
+		System.out.println(students.keySet());
+System.out.println("=====================================================");
+
+		Set<Integer> keys=students.keySet();
+		
+		for (Integer k:keys)
+		{
+			System.out.println(k+" "+students.get(k));
+		}
+		
+		System.out.println("============================================");
+		// containskey return boolean
+		System.out.println(students.containsKey(null));
+		
+		System.out.println(students.containsValue("Qasim"));
+		
+		
+		
+		
 	}
 }
 
@@ -43,6 +63,12 @@ public class MapExample1 {
 //map me 2 generic dena hota hai
 //key always be unique, value can b duplicate
 //its sort in asc order
+// hashmap me insertion order maintain nahi hote hain
+// keySet will return key ka object like key and value se key 
+
+// map me direct iterate nahi kar sakte hain but we can iterate through set and key set is used for this.
+
+
 
 
 //1) hashmap(unordered)   2)likedHashmap(ordered)    3)treeHashMap(asc order)
