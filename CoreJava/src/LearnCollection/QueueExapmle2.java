@@ -30,7 +30,3 @@ public class QueueExapmle2 {
 
 
 
-// collection has three parts
-// 1) set  2)List  3) queue
-
-//map is not part of collections but its relevant to collections
