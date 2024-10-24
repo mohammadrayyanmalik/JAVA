@@ -24,5 +24,25 @@ public class MapExample4 {
 		System.out.println(map.keySet());
 		System.out.println(map.higherKey(101));
 		System.out.println(map.higherEntry(101));
+		
+		System.out.println("======================================================");
+		
+		System.out.println(map.lowerKey(106));
+		System.out.println(map.lowerEntry(201));
+		
+		
+		System.out.println("======================================================");
+
+		System.out.println(map.ceilingKey(110));
+		System.out.println(map.ceilingEntry(110));
+		
+		System.out.println("======================================================");
+
+		
+		System.out.println(map.floorKey(110));
+		System.out.println(map.floorEntry(20));
+		
+		
 	}
 }
+

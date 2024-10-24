@@ -49,5 +49,4 @@ public class MapExample2 {
 	}
 	
 }
-// Hashmap does not maintain insertion order while Linked hashMap maintain insertion order
-// hashmap and LinkedHashMap has both are similar properties (key should be unique and value can be duplicate)
+

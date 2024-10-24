@@ -68,7 +68,10 @@ System.out.println("=====================================================");
 
 // map me direct iterate nahi kar sakte hain but we can iterate through set and key set is used for this.
 
+//lower and higher ke sath agar hum entry lagain ge to value bhi sath me mil jaiga
 
+//Hashmap does not maintain insertion order while Linked hashMap maintain insertion order
+//hashmap and LinkedHashMap has both are similar properties (key should be unique and value can be duplicate)
 
 
 //1) hashmap(unordered)   2)likedHashmap(ordered)    3)treeHashMap(asc order)
