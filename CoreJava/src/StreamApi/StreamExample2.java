@@ -21,6 +21,12 @@ public class StreamExample2 {
 			System.out.println("==========================================================");
 		});
 		
+		// ==================================================================================
 		
+		names.stream().forEach((name)->{
+			
+			System.out.println(name.charAt(0)+" "+name.charAt(name.length()-1));
+			
+		});
 	}
 }
