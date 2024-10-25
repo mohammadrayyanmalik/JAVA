@@ -21,6 +21,7 @@ public class SreamExample3 {
 		product.stream().
 		forEach((p)->System.out.println(p.getName()+" "+p.getPrice()*80/100));
 		
+		
 	}
 	
 }
