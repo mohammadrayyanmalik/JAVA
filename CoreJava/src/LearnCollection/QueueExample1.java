@@ -25,7 +25,7 @@ public class QueueExample1 {
 		
 		System.out.println("==============================================");
 		
-		
+			
 		
 	}
 }
