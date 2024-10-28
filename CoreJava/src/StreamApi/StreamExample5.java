@@ -38,4 +38,4 @@ public class StreamExample5 {
 	}
 	
 }
-//fillter ka return type stream hai and predicate ka parameter ka type hai 
+ 
