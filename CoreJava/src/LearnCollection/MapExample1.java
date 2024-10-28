@@ -52,7 +52,7 @@ System.out.println("=====================================================");
 }
 
 // add methods only collection taki use karenge
-// map me add karn eke liye purt ka use kkarenge
+// map me add karn eke liye put ka use kkarenge
 
 
 //collection has three parts

@@ -33,6 +33,8 @@ public class StreamExample1 {
 		
 		streamName.forEach((name)->System.out.println(name+" "+name.length()));
 		
+		
+		
 	
 			
 		
@@ -45,6 +47,7 @@ public class StreamExample1 {
 //filter 
 //forEach Method consumer ka object hi used karenge
 //for each Method belongs to Stream class
+// for each method used to iterate and perform such kind of action 
 //Stream is nothing but pipe line of data 
 
 // jo list ka type hoga whai stream ke object ka type

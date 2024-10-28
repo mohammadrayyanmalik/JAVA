@@ -13,9 +13,17 @@ public class StreamExample3 {
 		list.stream().filter((n)->n%2==0).forEach((n)->System.out.println(n));
 		
 		
-	
+		
+
 
 		
 	}
 	
 }
+//filter ka return type stream hai
+// filter true and 
+
+
+
+
+// jis bhi method ka type void ho uske sath koi bhi method aur nahi likh sakte
