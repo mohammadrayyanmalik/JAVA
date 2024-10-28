@@ -47,10 +47,22 @@ public class StreamExample1 {
 //filter 
 //forEach Method consumer ka object hi used karenge
 //for each Method belongs to Stream class
-// for each method used to iterate and perform such kind of action 
+// for each method used to iterate and perform only print
+// collect method used for new list or set while for each method is used for print only
+
+
 //Stream is nothing but pipe line of data 
 
 // jo list ka type hoga whai stream ke object ka type
 
+
+//map uses
+//ojetc ke conversion karta hai and name denge to alag se length of name ka alag se list mil jai
+//map like for each method but map return somethings
+
+//map  belongs to stream
+
+//fillter ka return type stream hai and predicate ka parameter ka type hai
+// collect method is used for new list
 
 

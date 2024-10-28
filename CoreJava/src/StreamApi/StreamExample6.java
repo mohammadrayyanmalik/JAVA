@@ -26,7 +26,16 @@ public class StreamExample6 {
 		
 		System.out.println(PriceGreaterThan);
 		
+		System.out.println("==================================================");
+		
+		List<String> ProductName = products.stream().map(name->name.getName()).collect(Collectors.toList());
+		
+		System.out.println(ProductName);
+		
+		
+		products.stream().map(name->name.getName()).forEach(n->System.out.println(n));
 		
 	}
 	
 }
+// 
