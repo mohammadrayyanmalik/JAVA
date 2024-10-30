@@ -37,6 +37,7 @@ public class StreamExample10 {
 		boolean evenMatch = numbers.stream().anyMatch(n->n%2==0);
 		System.out.println(evenMatch);
 		
+		System.out.println("===========================================");
 		boolean anyMatch = numbers.stream().anyMatch(n->n==1000);
 		System.out.println(anyMatch);
 		
@@ -44,12 +45,14 @@ public class StreamExample10 {
 //		numbers.stream().anyMatch(n->{
 //			n==1000
 //		});
-		
+		System.out.println("===========================================");
 		boolean allMatch = numbers.stream().allMatch(n->n%2==0);
 		System.out.println(allMatch);
 		
+		System.out.println("===========================================");
 		boolean noneMatch = numbers.stream().noneMatch(n->n>10000);
 		System.out.println(noneMatch);
 	}
 	
 }
+
