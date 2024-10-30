@@ -49,7 +49,8 @@ public class MTExample1 {
 			t2.start();
 			
 			try {
-				t1.join();
+				t1
+				.join();
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
