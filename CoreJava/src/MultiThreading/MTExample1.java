@@ -75,3 +75,9 @@ public class MTExample1 {
 // thread has a capability to stop your programm for some time
 // for gap of 1 second write in sleep method 1000   eg.sleep(1000)
 // main method is also a thread 
+
+
+// demon method 
+// demon method start method ko call karne se pahle hi batana padega ki thread demon hai
+// demon method bolta hai ki jab tab tak main thread chalega tab tak demon thread chalega onluy main thread
+//threrad creat karne ke liye setDeamon method ka use karenge
