@@ -4,10 +4,11 @@ public class Counter1 {
 
 	 int count=0;
 	 
-	synchronized public void increament()
+	 public void increament()
 	 {
 		 this.count++;
 	 }
 	 
 }
 
+//synchronis means one thread at a time

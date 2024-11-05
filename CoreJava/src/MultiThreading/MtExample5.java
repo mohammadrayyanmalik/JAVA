@@ -31,4 +31,3 @@ public class MtExample5 {
 	}
 }
 
-//synchronis means one thread at a time

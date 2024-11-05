@@ -6,11 +6,12 @@ public class MtExample6 {
 		
 		Counter1 counter=new Counter1();
 		Thread t1=new Thread(()->{
-			for(int i=1; i<=500; i++)
+			for(int i=1; i<=5100; i++)
 			{
 				counter.increament();
 				
 			}
+			
 			
 		});
 		
