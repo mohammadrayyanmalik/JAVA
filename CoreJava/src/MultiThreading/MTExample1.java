@@ -81,3 +81,5 @@ public class MTExample1 {
 // demon method start method ko call karne se pahle hi batana padega ki thread demon hai
 // demon method bolta hai ki jab tab tak main thread chalega tab tak demon thread chalega onluy main thread
 //threrad creat karne ke liye setDeamon method ka use karenge
+
+//synchronis means one thread at a time
