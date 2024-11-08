@@ -17,6 +17,7 @@ public class ComponentMain {
 		
 		
 		System.out.println("======================================================");
+		
 		ApplicationContext context1=
 				new AnnotationConfigApplicationContext(CategoryConfig.class);
 		
@@ -25,4 +26,5 @@ public class ComponentMain {
 		System.out.println(c1);
 		
 	}
+	
 }
