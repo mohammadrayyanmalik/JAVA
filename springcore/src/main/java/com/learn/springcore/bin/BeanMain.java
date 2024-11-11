@@ -25,6 +25,8 @@ public class BeanMain {
 			System.out.println(sc1);
 			
 			
+			
+			
 			System.out.println("=====================================");
 			School school1=context.getBean("school1",School.class);
 			System.out.println(school1);

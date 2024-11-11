@@ -8,7 +8,8 @@ public class Student {
 	private int id; 
 	private String name;
 	@Autowired
-	@Qualifier("school1")
+	@Qualifier("school1")// when one class hav many object and you have to mentioned one object to  join with   
+						// another class you should used Qualifier
 	private School school;
 	public int getId() {
 		return id;

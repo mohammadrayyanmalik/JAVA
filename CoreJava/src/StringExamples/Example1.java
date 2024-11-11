@@ -40,3 +40,4 @@ public class Example1 {
 // String ki value check nahi ki jati hai balki refrences check kiya jata hai ki heap memory me hai ya string constrant pool memory
 // String type ka agar object banai hain to uska comairision nahi kar sakte hain
 // String class ko  inherit nahi kar sake hain
+// to String method add nahi karen ge to address print hoga usi ko hatane ke liye  

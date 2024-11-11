@@ -5,12 +5,13 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 
-@Configuration
+@Configuration // configration ek setting ka option hai
+// @ComponentScan 
 
 
 public class BeanConfig {
 
-	@Bean
+	@Bean // multiple bins create karta hai
 	public Student s1()
 	{
 		return new Student(101,"Nisha",null);
