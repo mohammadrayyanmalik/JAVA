@@ -44,5 +44,16 @@ public class Controller1 {
 		return s;
 	}
 	
+	@GetMapping("/st")
+	public Student st()
+	{
+		Student s1=new Student();
+		s1.setId(102);
+		s1.setName("Faizan");
+		s1.setMarks(100);
+		
+		return s1;
+	}
+	
 	
 }
