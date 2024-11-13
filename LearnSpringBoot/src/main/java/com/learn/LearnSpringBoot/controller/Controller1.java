@@ -1,6 +1,12 @@
 package com.learn.LearnSpringBoot.controller;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 
 // @controller        @restController
 
@@ -55,5 +61,30 @@ public class Controller1 {
 		return s1;
 	}
 	
+	@GetMapping("/all-student")
+	public List<Student> allStudent()
+	{
+		ArrayList<Student> students = new ArrayList<Student>();
+		students.add(new Student(103, "Asrar", 89));
+		students.add(new Student(104, "Asif", 98));
+		return students;
+		
+	}
+	
+	
+	@GetMapping("/students/{id}")
+	public String learnPathVariable(@PathVariable("id") int  userid)
+	{
+		System.out.println(userid);
+		return "data fetch successfully";
+	}
+	
+	
+	@PostMapping("/students")
+	public Student addStudent(@RequestBody Student student)
+	{
+		System.out.println(student);
+		return student; 
+	}
 	
 }
