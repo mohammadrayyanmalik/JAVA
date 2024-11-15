@@ -3,6 +3,8 @@ package com.learn.LearnSpringBoot.controller;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -71,6 +73,15 @@ public class Controller1 {
 		
 	}
 	
+	@GetMapping("get-all-students")
+	public ResponseEntity<List<Student>> getAllStudent()
+	{
+		ArrayList<Student> students = new ArrayList<Student>();
+		students.add(new Student(103, "Asrar", 89));
+		students.add(new Student(104, "Asif", 98));
+		return new ResponseEntity<List<Student>> (students,HttpStatus.FOUND);
+	}
+	
 	
 	@GetMapping("/students/{id}")
 	public String learnPathVariable(@PathVariable("id") int  userid)
@@ -87,4 +98,15 @@ public class Controller1 {
 		return student; 
 	}
 	
+	// ResponseEntity
+	@PostMapping("/add-student")
+	public ResponseEntity<Student> addStudentWithResponseEntity(@RequestBody Student student)
+	{
+		System.out.println(student);
+		return new ResponseEntity<Student>(student,HttpStatus.CREATED);
+		
+	}
+	
 }
+// return type always be responseEntity while we wants to give response  like 202, and its generics should
+// be 
