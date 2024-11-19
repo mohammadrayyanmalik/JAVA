@@ -4,15 +4,17 @@ import java.util.List;
 import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.learn.Ecommerce.Dto.UserDto;
 import com.learn.Ecommerce.entity.User;
 import com.learn.Ecommerce.repository.UserRepository;
-
+@Service
 public class UserServiceImp implements UserService {
 
 	// userRepository ke pass sare methods hai isi liye userrepo ka object banaya hai
 	// and save method ko userrepo hi call karsakta hai kion ki userrepo inherit karta hai jpa ko
+	
 	@Autowired
 	UserRepository userRepository;
 	
@@ -24,6 +26,7 @@ public class UserServiceImp implements UserService {
 		userDto.setId(id);
 		
 		User user = dtoToEntity(userDto);
+		
 		User savedUser = userRepository.save(user);
 		
 		UserDto savedDto = entityToDto(savedUser);
@@ -31,6 +34,7 @@ public class UserServiceImp implements UserService {
 		return savedDto ;
 	}
 
+	 
 	@Override
 	public List<UserDto> getAllUser() {
 		// TODO Auto-generated method stub
@@ -71,7 +75,7 @@ public class UserServiceImp implements UserService {
 	@Override
 	public User dtoToEntity(UserDto userDto) {
 		User user = new User();
-		user.setId(user.getId());
+		user.setId(userDto.getId());
 		user.setFirstName(userDto.getFirstName());
 		user.setLastName(userDto.getLastName());
 		user.setEmailId(userDto.getEmailId());
