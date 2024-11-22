@@ -57,7 +57,7 @@ public class StreamExample1 {
 
 
 //map uses
-//ojetc ke conversion karta hai and name denge to alag se length of name ka alag se list mil jai
+//object ke conversion karta hai and name denge to alag se length of name ka alag se list mil jai
 //map like for each method but map return somethings
 
 //map  belongs to stream

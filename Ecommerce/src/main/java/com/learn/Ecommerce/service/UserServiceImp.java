@@ -2,6 +2,7 @@ package com.learn.Ecommerce.service;
 
 import java.util.List;
 import java.util.UUID;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -37,14 +38,25 @@ public class UserServiceImp implements UserService {
 	 
 	@Override
 	public List<UserDto> getAllUser() {
-		// TODO Auto-generated method stub
-		return null;
+		List<User> users = userRepository.findAll();
+		
+//userRepository ke pass findall method hai and uska return type user hai aur user ko hum directly 
+// return nahi kar sakte isliye map ka used kiya jo har ek users per perform karta hai and map 
+// method stream ke pass hai so humne stream.map used kiyaand collect method ke pass ek 
+// collector.list hai jo stream ko list me convert karega phir userDtoList ko return kiya hai
+
+		List<UserDto> userDtoList = users.stream()
+		.map(u->entityToDto(u))
+		.collect(Collectors.toList());
+		
+		return userDtoList;
 	}
 
 	@Override
 	public UserDto getUserById(String id) {
-		// TODO Auto-generated method stub
-		return null;
+		User user = userRepository.findById(id)
+		.orElseThrow(()->new RuntimeException(id+"not found"));// work like ifelse
+		return entityToDto(user);
 	}
 
 	@Override
@@ -55,8 +67,11 @@ public class UserServiceImp implements UserService {
 
 	@Override
 	public String deleteuser(String id) {
-		// TODO Auto-generated method stub
-		return null;
+		User user= userRepository.findById(id)
+		.orElseThrow(()->new RuntimeException(id+"not found"));
+		
+		userRepository.delete(user);
+		return user.getId()+"deleted successfully";
 	}
 
 	@Override
