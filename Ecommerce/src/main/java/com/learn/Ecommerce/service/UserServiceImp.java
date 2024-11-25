@@ -28,7 +28,8 @@ public class UserServiceImp implements UserService {
 		
 		User user = dtoToEntity(userDto);
 		
-		User savedUser = userRepository.save(user);
+		User savedUser = userRepository.save(user);// save method used to save data in database
+												   //otherwise ye java tak hi rahe ga
 		
 		UserDto savedDto = entityToDto(savedUser);
 		
@@ -61,8 +62,19 @@ public class UserServiceImp implements UserService {
 
 	@Override
 	public UserDto updateUser(String id, UserDto userDto) {
-		// TODO Auto-generated method stub
-		return null;
+		
+		User user = userRepository.findById(id)
+		.orElseThrow(()->new RuntimeException());
+		
+		user.setFirstName(userDto.getFirstName());
+		user.setLastName(userDto.getLastName());
+		user.setEmailId(userDto.getEmailId());
+		user.setAge(userDto.getAge());
+		user.setPassword(userDto.getPassword());
+		
+		User updatedUser = userRepository.save(user);
+		
+		return entityToDto(updatedUser);
 	}
 
 	@Override
