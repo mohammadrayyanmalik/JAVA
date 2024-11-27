@@ -1,5 +1,7 @@
 package com.learn.Ecommerce.Dto;
 
+import com.learn.Ecommerce.validators.PasswordMatch;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Id;
 import jakarta.validation.constraints.Max;
@@ -17,6 +19,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@PasswordMatch
 public class UserDto {
 
 	private String id;
@@ -38,6 +41,7 @@ public class UserDto {
 	private String password;
 	@NotNull
 	@NotBlank(message = "confirm password can not be null")
+	
 	private String confirmPassword;
 	@NotNull
 	@Min(13)
