@@ -19,7 +19,7 @@ import lombok.NoArgsConstructor;
 public class Product {
 
 	@Id
-	private int productId;
+	private int productId;	
 	@Column(nullable =false)
 	private String productName;
 	@Column(nullable =false)
@@ -31,3 +31,9 @@ public class Product {
 	
 	
 }
+
+//  GET  POST  /products
+//  GET   	/Products/{id}
+//  PUT     /Products/{id}
+// Delete   /Products/{id}
+ 
