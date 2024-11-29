@@ -29,7 +29,11 @@ public interface UserService {
 // Dto to Entity
 	User dtoToEntity(UserDto userDto);
 	
+// to fetch by email
+	UserDto getUserByEmail(String email);
 	
+	//to fetch by firstName
+	List<UserDto> getUserByFirstName(String firstName);
 	
 }
 //  aapke pass service honi chahiye like logic of business 
