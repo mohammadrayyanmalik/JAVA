@@ -1,9 +1,12 @@
 package com.learn.Ecommerce.Dto;
 
+import com.learn.Ecommerce.entity.Address;
 import com.learn.Ecommerce.validators.PasswordMatch;
 
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Id;
+import jakarta.persistence.OneToOne;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
@@ -47,6 +50,7 @@ public class UserDto {
 	@Min(13)
 	@Max(160)
 	private int age;
+	private Address address;
 	
 	
 }
