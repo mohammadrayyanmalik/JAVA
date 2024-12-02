@@ -98,7 +98,18 @@ public class UserController {
 	
 	
 	
+	
+	
+	
 }
 // requestbody use to read object from post man
 // validation: it is applying rule (dependency:spring validation)  
 // post man se data pahle Dto ke pass hi ataa hai
+
+
+// cascade type
+// persist is a type of cascade
+// Merge opration incae of updation (persist and merge)
+// remove operation agar maine parent ko delete kia to uske child ko bhi hona chahiye
+// refresh 
+// ALL  (all those operation is called All)
