@@ -3,6 +3,7 @@ package com.learn.Ecommerce.entity;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -27,6 +28,8 @@ public class Product {
 	@Column(nullable=false)
 	private int productPrice;
 
+	@ManyToOne
+	private Category category;
 	
 	
 	
