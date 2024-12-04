@@ -11,4 +11,5 @@ import com.learn.Ecommerce.entity.Category;
 @RepositoryRestResource(path = "category")
 public interface CategoryRepository extends JpaRepository<Category, String>{
 
+	
 }
