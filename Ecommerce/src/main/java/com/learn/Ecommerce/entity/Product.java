@@ -1,4 +1,4 @@
-package com.learn.Ecommerce.entity;
+	package com.learn.Ecommerce.entity;
 
 import java.util.List;
 
